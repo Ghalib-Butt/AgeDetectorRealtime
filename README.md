@@ -14,20 +14,24 @@ An AI-based python project that seamlessly switch between real-time model traini
 
 Clone the project's repo
 
-    $ git clone https://github.com/Ghalib-Butt/AgeDetectorRealtime.git
+    git clone https://github.com/Ghalib-Butt/AgeDetectorRealtime.git
 
 Get into the project directory
 
-    $ cd Age_detector_realtime
+    cd Age_detector_realtime
+
+Install the required packages
+
+    pip3 install opencv-python pillow scipy tensorflow
 
 To run the project on pre build model
 
-    $ python3 ADR.py
+    python3 ADR.py
 
 To train on new dataset and run the project on new model
 
-    $ python3 ADR_VGG16_model_trainer.py
+    python3 ADR_VGG16_model_trainer.py
 
 To train the model on realtime
 
-    $ python3 ADR_image_capturer.py
+    python3 ADR_image_capturer.py
